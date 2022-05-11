@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/vehiclePhoto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="10dp"
+        tools:srcCompat="@tools:sample/avatars"
+        android:contentDescription="@string/vehicle_image_desc" />
+
+    <TextView
+        android:id="@+id/yearMakeModelTrim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/year_make_model_trim"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@id/vehiclePhoto"
+        app:layout_constraintStart_toStartOf="@id/vehiclePhoto"
+        android:layout_margin="10dp"
+        />
+
+    <TextView
+        android:id="@+id/priceMileage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/price_mileage"
+        android:textSize="14sp"
+        app:layout_constraintTop_toBottomOf="@id/yearMakeModelTrim"
+        app:layout_constraintStart_toStartOf="@id/yearMakeModelTrim"/>
+
+    <TextView
+        android:id="@+id/location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/location"
+        android:textSize="14sp"
+        app:layout_constraintTop_toBottomOf="@id/priceMileage"
+        app:layout_constraintStart_toStartOf="@id/yearMakeModelTrim"/>
+
+    <Button
+        android:id="@+id/callDealerButton"
+        style="@style/CallDealerButton"
+        app:layout_constraintTop_toBottomOf="@id/location"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

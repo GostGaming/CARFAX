@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">CARFAX</string>
+    <string name="year_make_model_trim">yearMakeModelTrim</string>
+    <string name="price_mileage">%1$s | %2$s mi</string>
+    <string name="location">Location</string>
+    <string name="call_dealer">CALL DEALER</string>
+    <string name="vehicle_image_desc">Vehicle Image</string>
+    <string name="vehicle_info_label">Vehicle Info</string>
+    <string name="location_placeholder">locationPlaceholder</string>
+    <string name="exterior_color_label">Exterior Color</string>
+    <string name="exterior_color_placeholder">exterior color placeholder</string>
+    <string name="interior_color_label">Interior Color</string>
+    <string name="interior_color_placeholder">interior color placeholder</string>
+    <string name="drive_type_label">Drive Type</string>
+    <string name="drive_type_placeholder">drive type placeholder</string>
+    <string name="transmission_label">Transmission</string>
+    <string name="transmission_placeholder">transmission placeholder</string>
+    <string name="body_style_label">Body Style</string>
+    <string name="body_style_placeholder">body style placeholder</string>
+    <string name="engine_label">Engine</string>
+    <string name="engine_placeholder">engine placeholder</string>
+    <string name="fuel_label">Fuel</string>
+    <string name="fuel_placeholder">fuel placeholder</string>
+</resources>
